@@ -1,8 +1,61 @@
-@import url("components/navbar.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
 
 html, body {
   min-height: 100vh;
+  font-family: 'Fira Sans', sans-serif;
 }
+
+#project {
+  background-color: #FAFAFA;
+  height: 70vh;
+}
+
+#about-me {
+  height: 70vh;
+}
+
+#contact {
+  height: 50vh;
+}
+
+.nav-content {
+  padding: 10px 16px;
+  color: white;
+  font-size: 1.2em;
+  margin: 16px;
+  opacity: 0.8;
+}
+
+.nav-content:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.box-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.fa-arrow-up {
+  position: absolute;
+  top: 1em;
+  right: 3em;
+  font-size: 1.2em;
+  color: #6b9bb7;
+  opacity: 0.7;
+}
+
+
+
+
+
+
 
 
 

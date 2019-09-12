@@ -4,33 +4,95 @@
     <meta name="description" content= "Ellen Lee - Full Stack Developer<">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i,400,700|Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
     <body>
-      <div class="banner" style='height:100vh'>
+      <div class="banner" style='height:100vh' id="top">
         <div class="content">
           <div class="navbar d-flex justify-content-end align-items-center px-0 py-0 mr-5">
-            <a href="#" class="text-white font-weight-bold ml-5 mt-4" style="font-size:1.5em">About</a>
-            <a href="#" class="text-white font-weight-bold ml-5 mt-4" style="font-size:1.5em">Projects</a>
-            <a href="#" class="text-white font-weight-bold ml-5 mt-4" style="font-size:1.5em">Contact</a>
+            <a href="#about-me" class="nav-content">About Me</a>
+            <a href="#project" class="nav-content">Projects</a>
+            <a href="#contact" class="nav-content">Contact</a>
           </div>
           <div class="title ml-5 position-absolute" style="top:40vh">
-            <h2>Ellen Lee | Full Stack Web Developer</h2>
+            <div class="card-content">
+              <h1><span style="font-weight: bold;">Ellen Lee</span> | Full Stack Web Developer</h1>
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="box-content" id="about-me">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+        <div class="container">
+          <h3 class="text-center mb-5">About Me</h3>
+            <p>I am a passionate problem solver with commercial mindset and a strong interest in the world of start-ups / technology. After 3 years of marketing, commercial development and a Masters in Management degree from London Business School, I have decided to have a career change and have trained at Le Wagon in London to become a full-stack web developer.
+            <br>
+            <br>
+            Having lived in 6 countries in Asia and across Europe, I excel in fast-paced and multicultural environments and I aspire to continue an international career. </p>
+        </div>
+      </div>
+
+      <div class="box-content" id="project">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+        <div class="container">
+          <h3 class="text-center mb-5">Projects</h3>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="project-card">
+                <h4 id="show">Mr.Cocktail</h4>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="project-card">
+                <h4 id="show">Limelite</h4>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="project-card mb-5" style="background-image: url('images/126.png')">
+                <div class="show-content" id="show">
+                  <h4>126</h4>
+                  <p>A Netflix/Deliveroo combo generator that gives you a stress free weekend night.
+                  <br>
+                  Built with <span style="font-weight: bold;">Ruby on Rails, Javascript, AJAX, Bootstrap, API integration & HTML scraping</span>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-content" id="contact">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+        <div class="content_center">
+          <h3 class="text-center mb-5">Get in Touch</h3>
+          <div class="container">
+            <div class="contact-link d-flex justify-content-space-between">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/ellenleelbs/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>This website was created by Ellen Lee</p>
+      </div>
+
       <script src="three.r92.min.js"></script>
       <script src="vanta.fog.min.js"></script>
       <script>
       VANTA.FOG({
         el: ".banner",
-        highlightColor: 0x161614,
-        midtoneColor: 0xf03a21,
-        speed: 1.20
+        highlightColor: 0xdccc99,
+        midtoneColor: 0x35a4f2,
+        lowlightColor: 0x1d385f,
+        baseColor: 0xfcdddd,
+        speed: 1.50
       })
       </script>
     </body>
