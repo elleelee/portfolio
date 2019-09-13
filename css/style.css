@@ -9,15 +9,6 @@ html, body {
 
 #project {
   background-color: #FAFAFA;
-  min-height: 82vh;
-}
-
-#about-me {
-  min-height: 82vh;
-}
-
-#contact {
-  min-height: 40vh;
 }
 
 .main_title {
@@ -81,26 +72,12 @@ html, body {
 }
 
 @media only screen and (max-width: 760px) {
-  #about-me {
-    min-height: 90vh;
-  }
-
-  #project {
-    height: 140vh;
-  }
-
   .main_title {
     margin-left: 1.5em;
   }
 
   .el_title, #type_it {
     font-size: 32px;
-  }
-
-  #brand {
-    height: 5vh;
-    bottom: 2em;
-    right: 15em;
   }
 
   .nav-content {
@@ -110,6 +87,13 @@ html, body {
   .me_content {
     font-size: 0.8em;
     padding: 0 20px;
+  }
+
+  #brand {
+    position: static;
+    height: 6vh;
+    margin-left: 1em;
+    margin-top: 1em;
   }
 }
 
