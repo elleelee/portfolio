@@ -9,6 +9,7 @@ html, body {
 
 #project {
   background-color: #FAFAFA;
+  min-height: 640px;
 }
 
 .main_title {
@@ -33,14 +34,14 @@ html, body {
 
 .box-content {
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   position: relative;
 }
 
 .fa-arrow-circle-up {
   position: absolute;
-  top: -4em;
+  top: 1em;
   right: -35em;
   font-size: 1.5em;
   color: #6b9bb7;
@@ -145,8 +146,9 @@ html, body {
 
   .fa-arrow-circle-up {
     right: -14em;
-    top: -4.5em;
+    top: 1.5em;
   }
+}
 
 
 

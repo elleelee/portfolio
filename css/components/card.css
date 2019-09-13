@@ -1,3 +1,15 @@
+#no-show {
+  opacity: 0;
+}
+
+.outer-card {
+/*  height: 420px;
+*/}
+
+.lower-content {
+  color: #8b9296;
+}
+
 .project-card {
   background-position: center;
   background-size: cover;
@@ -18,20 +30,44 @@
   color: #bbbdbf;
 }
 
-#show {
-  opacity: 0;
-}
-
 .project-card:hover {
   cursor: pointer;
   opacity: 1;
-  background-color: #fff;
-  background-image: none !important;
   box-shadow: 5px 6px 10px rgba(0,0,0,0.2);
 }
 
-.project-card:hover > #show {
+.project-card:hover > #no-show {
   opacity: 1;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+#card_one:hover {
+  background-image:linear-gradient(rgba(107,155,183,0.9),rgba(107,155,183,0.9)),url('../../images/cocktail.png') !important;
+}
+
+#card_two:hover {
+  background-image:linear-gradient(rgba(107,155,183,0.9),rgba(107,155,183,0.9)),url('../../images/limelite.png') !important;
+}
+
+#card_three:hover {
+  background-image:linear-gradient(rgba(107,155,183,0.9),rgba(107,155,183,0.9)),url('../../images/126.png') !important;
+}
+
+.show-content {
+  margin-left: 10px;
+  margin-bottom: 16px;
+}
+
+.show-content h4 {
+  margin-bottom: 10px;
+  color: #6b9bb7;
+  font-weight: bold;
+}
+
+.show-content p {
+  color: #484b4c;
 }
 
 .show-content a {
