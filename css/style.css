@@ -20,9 +20,10 @@ html, body {
   height: 40vh;
 }
 
-.title {
+.main_title {
   position: absolute;
   top:40vh;
+  margin-left: 3.6em;
 }
 
 .nav-content {
@@ -93,18 +94,27 @@ html, body {
     height: 50vh;
   }
 
+  .main_title {
+    margin-left: 2em;
+  }
+
   .el_title, #type_it {
     font-size: 32px;
   }
 
   #brand {
-    height: 6vh;
-    bottom: 2em;
-    right: 17em;
+    height: 7vh;
+    bottom: 6em;
+    right: 14em;
   }
 
   .nav-content {
     font-size: 1em;
+  }
+
+  .me_content {
+    font-size: 0.8em;
+    padding: 0 20px;
   }
 }
 
