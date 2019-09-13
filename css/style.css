@@ -87,7 +87,7 @@ html, body {
   }
 
   #about-me {
-    height: 135vh;
+    height: 110vh;
   }
 
   #contact {
@@ -104,7 +104,7 @@ html, body {
 
   #brand {
     height: 7vh;
-    bottom: 6em;
+    bottom: 1.5em;
     right: 14em;
   }
 
