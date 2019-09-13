@@ -20,8 +20,13 @@ html, body {
   height: 40vh;
 }
 
+.title {
+  position: absolute;
+  top:40vh;
+}
+
 .nav-content {
-  padding: 10px 16px;
+  padding: 10px 6px;
   color: black;
   font-size: 1.2em;
   margin: 16px 8px;
@@ -72,6 +77,35 @@ html, body {
   position: absolute;
   bottom: 5em;
   right: 13em;
+}
+
+@media only screen and (max-width: 760px) {
+  #project {
+    background-color: #FAFAFA;
+    height: 170vh;
+  }
+
+  #about-me {
+    height: 135vh;
+  }
+
+  #contact {
+    height: 50vh;
+  }
+
+  .el_title, #type_it {
+    font-size: 32px;
+  }
+
+  #brand {
+    height: 6vh;
+    bottom: 2em;
+    right: 17em;
+  }
+
+  .nav-content {
+    font-size: 1em;
+  }
 }
 
 
