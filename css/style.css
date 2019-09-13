@@ -65,7 +65,7 @@ html, body {
 
 #brand {
   margin-top: 2.0em;
-  height: 7vh;
+  height: 9vh;
 }
 
 #arrow-down {
@@ -127,7 +127,7 @@ html, body {
 
   #brand {
     position: static;
-    height: 6vh;
+    height: 8vh;
     margin-left: 1em;
     margin-top: 1em;
   }
