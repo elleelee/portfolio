@@ -83,11 +83,11 @@ html, body {
 @media only screen and (max-width: 760px) {
   #project {
     background-color: #FAFAFA;
-    height: 170vh;
+    height: 145vh;
   }
 
   #about-me {
-    height: 110vh;
+    height: 95vh;
   }
 
   #contact {
@@ -103,8 +103,8 @@ html, body {
   }
 
   #brand {
-    height: 7vh;
-    bottom: 1.5em;
+    height: 6vh;
+    bottom: 2.5em;
     right: 14em;
   }
 
