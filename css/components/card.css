@@ -59,6 +59,10 @@
   background-image:linear-gradient(rgba(107,155,183,0.9),rgba(107,155,183,0.9)),url('../../images/react-user-app.png') !important;
 }
 
+#card_five:hover {
+  background-image:linear-gradient(rgba(107,155,183,0.9),rgba(107,155,183,0.9)),url('../../images/chat-app.png') !important;
+}
+
 .show-content {
   margin-left: 10px;
   margin-bottom: 16px;
